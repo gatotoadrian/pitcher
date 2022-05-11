@@ -14,6 +14,7 @@ As a user, I would like to:
 - View the pitches I have created in my profile page.
 - omment on the different pitches and leave feedback.
 
+
 ## SetUp Instructions
 First you need to have Python3 installed in your machine.
 After cloning the repo, navigate to it's directory and open it in your code editor.
