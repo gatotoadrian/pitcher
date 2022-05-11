@@ -16,6 +16,7 @@ As a user, I would like to:
 
 
 ## SetUp Instructions
+
 First you need to have Python3 installed in your machine.
 After cloning the repo, navigate to it's directory and open it in your code editor.
 You then have to set up a virtual environment and activate it. Make sure you have the necessary dependencies installed also.
