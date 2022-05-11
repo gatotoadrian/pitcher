@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{%block css%}
+<link rel="stylesheet" href="{{url_for('static', filename = 'css/pitches.css')}}">
+{% endblock %}
+
+
+{% block content%}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="pitch-head">
+                <h1>Write Your Pitch Here</h1>
+                <div class="pitch-content">
+                    {% for post in posts %}
+                    <h5>{{post.pitch}}</h5>
+                    <p>{{post.name}}</p>
+                    <a href="{{url_for('main.like', id = post.id)}}"><i class="bi bi-hand-thumbs-up"></i></a><span class="custom">{{post.likes.count()}}</span>
+                    <a href="{{url_for('main.dislike', id = post.id)}}"><i class="bi bi-hand-thumbs-down"></i></a><span class="custom">{{post.dislikes.count()}}</span>
+                    <hr>
+                    <a href="">Add Comment</a>
+                    <br><br>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="categories">
+                <div class="cat-holder">
+                    {{wtf.quick_form(pitch_form)}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock%}
