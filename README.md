@@ -3,7 +3,9 @@
 ## Description
 An application that allows users to submit their one minute pitches and other users will vote on them and leave comments to give their feedback on them.
 
+
 ## BDD
+
 As a user, I would like to:
 - See the pitches other people have posted.
 - Vote on the pitch they liked and give it a downvote or upvote.
