@@ -23,6 +23,7 @@ You then have to set up a virtual environment and activate it. Make sure you hav
 You can then run the application.
 
 ## Technologies used
+
 - Python3(Flask)
 - SQLAlchemy
 - Jinja2
