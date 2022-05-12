@@ -1,11 +1,11 @@
 # from multiprocessing import managers
-<<<<<<< HEAD
+
 from flask_migrate import Migrate,MigrateCommand
-=======
+
 # from flask_migrate import Migrate,MigrateCommand
 # from flask_script import Manager, Server
 from flask_migrate import Migrate, MigrateCommand
->>>>>>> 2583607409e4dc74893d4796afb42b43198177a2
+# >>>>>>> 2583607409e4dc74893d4796afb42b43198177a2
 from flask_script import Manager, Server
 
 from app import create_app, db
@@ -32,5 +32,5 @@ def make_shell_context():
 
 
 if __name__ == '__main__':
-    manager.run()
+    app.run(host="0.0.0.0",port=1999)
 
