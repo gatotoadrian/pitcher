@@ -1,7 +1,8 @@
 # pitches
 
 ## Description
-An application that allows users to submit their one minute pitches and other users will vote on them and leave comments to give their feedback on them.
+An application that allows users to submit their one minute pitches and other users will vote on them and leave comments to give their feedba
+ck on them.
 
 
 ## BDD
