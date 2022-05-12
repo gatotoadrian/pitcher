@@ -1,0 +1,3 @@
+Hello {{user.username}}
+Welcome tp Pitches!
+You just signed up on our application. Enjoy the content
