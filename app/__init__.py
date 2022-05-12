@@ -3,8 +3,14 @@ from config import config_options
 from flask_bootstrap import Bootstrap
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
+<<<<<<< HEAD
 from flask_mail import Mail
 from os import *
+=======
+# from flask_migrate import Migrate
+from flask_mail import Mail
+# from flask_uploads import UploadSet,configure_uploads,IMAGES
+>>>>>>> 2583607409e4dc74893d4796afb42b43198177a2
 
 
 mail = Mail()
